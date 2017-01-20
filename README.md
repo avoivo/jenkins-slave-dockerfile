@@ -1,7 +1,7 @@
 # jenkins-slave-dockerfile
 
 This container can be used as a jenkins slave that can use the host Docker
-daemon for building other containers. It uses [jnlp-slave](https://hub.docker.com/r/jenkinsci/jnlp-slave/) container.
+daemon for building other containers by running `docker` or `docker-compose commands`. It uses [jnlp-slave](https://hub.docker.com/r/jenkinsci/jnlp-slave/) container.
 
 ## Setup jenkins
 
